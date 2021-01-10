@@ -14,6 +14,10 @@
     <!-- endbuild -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
    
+    <!--Added from online-->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <title>NuCamp: A Better Way To Camp</title>
 </head>
@@ -72,10 +76,36 @@
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item active">Contact</li>
                 </ol>
-                <h2>Find Us</h2>
+                <h2>Let's Connect</h2>
             </div>
         </div>
-
+        <div class="container">
+            <form class="well span8">
+                <div class="row">
+                    <div class="span3">
+                        <label>First Name</label> 
+                        <input class="span3" placeholder="Your First Name" type="text"> 
+                        <label>Last Name</label>
+                        <input class="span3" placeholder="Your Last Name" type="text">
+                        <label>Email Address</label> 
+                        <input class="span3" placeholder="Your email address" type="text"> 
+                        <label>Subject</label>
+                        <select class="span3" id="subject" name="subject">
+                            <option selected value="na">How can we help:</option>
+                            <option value="service">Content Creation</option>
+                            <option value="suggestions">Social Media Management</option>
+                            <option value="product">PPC Marketing</option>
+                        </select>
+                    </div>
+            
+                    <div class="span5">
+                        <label>Message</label> 
+                        <textarea class="input-xlarge span5" id="message" name="message" rows="10"></textarea>
+                    </div>
+                    <button class="btn btn-primary pull-right" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
         <div class="row row-content align-items-center">
             <div class="col-sm-4">
                 <h5>Connect</h5>

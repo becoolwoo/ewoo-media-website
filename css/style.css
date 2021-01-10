@@ -11,14 +11,14 @@ header h2 {
   color: #CEC8FF; }
 
 .site-footer {
-  background-image:white
+  background-image:white;
   padding: 20px 0; }
 
-  .jumbotron {
-    background-image: url(/img/ewooheader.png);
-    background-size: 45%;
-    height: cover;
-    padding: 89px;}
+.jumbotron {
+  background-image: url(/img/ewooheader.png);
+  background-size: 45%;
+  height: cover;
+  padding: 89px;}
     
 
 .row-content {
