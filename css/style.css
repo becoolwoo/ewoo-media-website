@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
-  font-family: "Lobster", cursive; }
+  font-family: "Open Sans", cursive; }
 
 h2 {
   color: #3046C5; }
@@ -11,14 +11,15 @@ header h2 {
   color: #CEC8FF; }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-image:white
   padding: 20px 0; }
 
-.jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
-  color: white; }
+  .jumbotron {
+    background-image: url(/img/ewooheader.png);
+    background-size: 45%;
+    height: cover;
+    padding: 89px;}
+    
 
 .row-content {
   padding: 50px 0;
